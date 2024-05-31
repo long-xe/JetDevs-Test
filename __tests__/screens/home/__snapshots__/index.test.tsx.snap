@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home screen should renders screen correctly 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "marginHorizontal": 20,
+      "marginVertical": 10,
+    }
+  }
+>
+  <RCTScrollView
+    data={[]}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={1}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onRefresh={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    refreshControl={
+      <RefreshControlMock
+        onRefresh={[Function]}
+        refreshing={false}
+      />
+    }
+    refreshing={false}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={0.0001}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <RCTRefreshControl />
+    <View />
+  </RCTScrollView>
+</View>
+`;
